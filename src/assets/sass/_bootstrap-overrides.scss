@@ -3,11 +3,12 @@
 }
 
 .text-primary {
-  color: $primary !important;
+  color: $warning !important;
 }
 
 a {
   color: $primary;
+
   &:hover,
   &:focus,
   &:active {

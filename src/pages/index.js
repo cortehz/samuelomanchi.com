@@ -2,6 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import triangle from '../assets/images/triangle.svg';
+import portfolio from '../portfolio.json';
 
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
@@ -66,8 +67,8 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Senior Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Front end Web Developer</h3>
+              <div className="subheading mb-3">Eventera.io</div>
               <p>
                 Bring to the table win-win survival strategies to ensure
                 proactive domination. At the end of the day, going forward, a
@@ -141,159 +142,27 @@ const IndexPage = () => (
           <span>Portfolio</span>
         </h1>
         <ul class="cards">
-          <li class="cards_item">
-            <div class="card">
-              <img
-                class="content-image"
-                src="https://res.cloudinary.com/cortehz/image/upload/v1571931358/Senate_Shit_Background_only_hl9yar.png"
-              />
-              <div class="card-info">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim.
-                </p>
+          {portfolio.portfolio.map(port => {
+            const { id, name, description, imageAddress, webAddress } = port;
+            return (
+              <li key={id} class="cards_item">
+                <div class="card">
+                  <img class="content-image" src={imageAddress} />
+                  <div class="card-info">
+                    <p>{description}</p>
 
-                <a className="button-project" href="goal.com">
-                  View Project
-                </a>
-              </div>
-              <div class="color-overlay"></div>
-              <a className="project-before"><i class="far fa-hand-pointer"></i>   View Project</a>
-            </div>
-          </li>
-
-          <li class="cards_item">
-            <div class="card">
-              <img
-                class="content-image"
-                src="https://res.cloudinary.com/cortehz/image/upload/v1571931358/Senate_Shit_Background_only_hl9yar.png"
-              />
-              <div class="card-info">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim.
-                </p>
-
-                <a className="button-project" href="goal.com">
-                  View Project
-                </a>
-              </div>
-              <div class="color-overlay"></div>
-              <a className="project-before">View Project</a>
-            </div>
-          </li>
-
-          <li class="cards_item">
-            <div class="card">
-              <img
-                class="content-image"
-                src="https://res.cloudinary.com/cortehz/image/upload/v1571931358/Senate_Shit_Background_only_hl9yar.png"
-              />
-              <div class="card-info">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim.
-                </p>
-
-                <a className="button-project" href="goal.com">
-                  View Project
-                </a>
-              </div>
-              <div class="color-overlay"></div>
-              <a className="project-before">View Project</a>
-            </div>
-          </li>
-
-          <li class="cards_item">
-            <div class="card">
-              <img
-                class="content-image"
-                src="https://res.cloudinary.com/cortehz/image/upload/v1571931358/Senate_Shit_Background_only_hl9yar.png"
-              />
-              <div class="card-info">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim.
-                </p>
-
-                <a className="button-project" href="goal.com">
-                  View Project
-                </a>
-              </div>
-              <div class="color-overlay"></div>
-              <a className="project-before">View Project</a>
-            </div>
-          </li>
-
-          <li class="cards_item">
-            <div class="card">
-              <img
-                class="content-image"
-                src="https://res.cloudinary.com/cortehz/image/upload/v1571931358/Senate_Shit_Background_only_hl9yar.png"
-              />
-              <div class="card-info">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim.
-                </p>
-
-                <a className="button-project" href="goal.com">
-                  View Project
-                </a>
-              </div>
-              <div class="color-overlay"></div>
-              <a className="project-before">View Project</a>
-            </div>
-          </li>
-
-          <li class="cards_item">
-            <div class="card">
-              <img
-                class="content-image"
-                src="https://res.cloudinary.com/cortehz/image/upload/v1571931358/Senate_Shit_Background_only_hl9yar.png"
-              />
-              <div class="card-info">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim.
-                </p>
-
-                <a className="button-project" href="goal.com">
-                  View Project
-                </a>
-              </div>
-              <div class="color-overlay"></div>
-              <a className="project-before">View Project</a>
-            </div>
-          </li>
-
-          <li class="cards_item">
-            <div class="card">
-              <img
-                class="content-image"
-                src="https://res.cloudinary.com/cortehz/image/upload/v1571931358/Senate_Shit_Background_only_hl9yar.png"
-              />
-              <div class="card-info">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim.
-                </p>
-
-                <a className="button-project" href="goal.com">
-                  View Project
-                </a>
-              </div>
-              <div class="color-overlay"></div>
-              <a className="project-before">View Project</a>
-            </div>
-          </li>
+                    <a className="button-project" href={webAddress}>
+                      View Project
+                    </a>
+                  </div>
+                  <a className="project-before">
+                    <span>{name}</span>
+                    <i class="far fa-hand-pointer"></i>
+                  </a>
+                </div>
+              </li>
+            );
+          })}
         </ul>
       </div>
 
@@ -306,21 +175,20 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">University of Colorado Boulder</h3>
-              <div className="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
+              <h3 className="mb-0">Universität Bremen</h3>
+              <div className="subheading mb-3">Master of Science</div>
+              <div>Environmental Physics</div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2006 - May 2010</span>
+              <span className="text-primary">April 2020 - Present</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
-              <h3 className="mb-0">James Buchanan High School</h3>
-              <div className="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
+              <h3 className="mb-0">University of Agriculture Makurdi</h3>
+              <div className="subheading mb-3">Bachelor of Science</div>
+              <div>Physics</div>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">August 2002 - May 2006</span>
