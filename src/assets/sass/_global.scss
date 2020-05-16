@@ -131,6 +131,18 @@ p.lead {
     list-style: none;
     margin: 0;
     padding: 0;
+
+    .project-before {
+      display: block;
+      text-decoration: none;
+      font-weight: 500;
+      margin-top: -20px;
+      color: #fafafa;
+      border-radius: 15px;
+      font-size: 1rem;
+      margin-left: 30%;
+    }
+
   }
 
   .cards_item {
@@ -145,11 +157,13 @@ p.lead {
 
     &:hover {
 
+      .project-before {
+        display: none;
+      }
+
       .card-info {
         opacity: 1;
-        // bottom: 120px;
-        // background: url(); 
-        background: linear-gradient(to bottom, rgba(236, 235, 235, .4) 40%, #fff 100%);
+        background: linear-gradient(to bottom, rgba(73, 80, 87, .9) 40%, rgba(73, 80, 87, .9) 100%);
         height: 100%;
       }
 
@@ -161,17 +175,36 @@ p.lead {
     .card-info {
       width: 100%;
       position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       // bottom: 100px;
       left: 0;
       margin: 0 auto;
-      padding: 0 50px;
-      color: $gray-800;
-      font-family: 'Droid Serif', serif;
+      padding: 0 20px;
+      color: #fafafa;
+      font-family: 'Muli', serif;
       font-style: 16px;
       line-height: 24px;
       z-index: 20;
       opacity: 0;
       transition: bottom .3s, opacity .3s cubic-bezier(.33, .66, .66, 1);
+      border-radius: .25rem;
+      text-align: center;
+
+      a {
+        display: block;
+        background: $warning;
+        text-decoration: none;
+        font-weight: 500;
+        padding: 5px 15px;
+        margin-top: -20px;
+        color: #fafafa;
+        border-radius: 15px;
+        font-size: 1rem;
+
+      }
+
     }
 
 

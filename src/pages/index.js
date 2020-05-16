@@ -136,7 +136,7 @@ const IndexPage = () => (
 
       <hr className="m-0" />
 
-      <div class="articles">
+      <div class="articles" id="portfolio">
         <h1>
           <span>Portfolio</span>
         </h1>
@@ -148,12 +148,18 @@ const IndexPage = () => (
                 src="https://res.cloudinary.com/cortehz/image/upload/v1571931358/Senate_Shit_Background_only_hl9yar.png"
               />
               <div class="card-info">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim.
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim.
+                </p>
+
+                <a className="button-project" href="goal.com">
+                  View Project
+                </a>
               </div>
               <div class="color-overlay"></div>
-              <a>View Project</a>
+              <a className="project-before"><i class="far fa-hand-pointer"></i>   View Project</a>
             </div>
           </li>
 
@@ -164,20 +170,18 @@ const IndexPage = () => (
                 src="https://res.cloudinary.com/cortehz/image/upload/v1571931358/Senate_Shit_Background_only_hl9yar.png"
               />
               <div class="card-info">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim.
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim.
+                </p>
+
+                <a className="button-project" href="goal.com">
+                  View Project
+                </a>
               </div>
               <div class="color-overlay"></div>
-            </div>
-          </li>
-
-          <li class="cards_item">
-            <div class="card">
-              <img
-                class="content-image"
-                src="https://res.cloudinary.com/cortehz/image/upload/v1571931358/Senate_Shit_Background_only_hl9yar.png"
-              />
+              <a className="project-before">View Project</a>
             </div>
           </li>
 
@@ -188,10 +192,106 @@ const IndexPage = () => (
                 src="https://res.cloudinary.com/cortehz/image/upload/v1571931358/Senate_Shit_Background_only_hl9yar.png"
               />
               <div class="card-info">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim.
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim.
+                </p>
+
+                <a className="button-project" href="goal.com">
+                  View Project
+                </a>
               </div>
+              <div class="color-overlay"></div>
+              <a className="project-before">View Project</a>
+            </div>
+          </li>
+
+          <li class="cards_item">
+            <div class="card">
+              <img
+                class="content-image"
+                src="https://res.cloudinary.com/cortehz/image/upload/v1571931358/Senate_Shit_Background_only_hl9yar.png"
+              />
+              <div class="card-info">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim.
+                </p>
+
+                <a className="button-project" href="goal.com">
+                  View Project
+                </a>
+              </div>
+              <div class="color-overlay"></div>
+              <a className="project-before">View Project</a>
+            </div>
+          </li>
+
+          <li class="cards_item">
+            <div class="card">
+              <img
+                class="content-image"
+                src="https://res.cloudinary.com/cortehz/image/upload/v1571931358/Senate_Shit_Background_only_hl9yar.png"
+              />
+              <div class="card-info">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim.
+                </p>
+
+                <a className="button-project" href="goal.com">
+                  View Project
+                </a>
+              </div>
+              <div class="color-overlay"></div>
+              <a className="project-before">View Project</a>
+            </div>
+          </li>
+
+          <li class="cards_item">
+            <div class="card">
+              <img
+                class="content-image"
+                src="https://res.cloudinary.com/cortehz/image/upload/v1571931358/Senate_Shit_Background_only_hl9yar.png"
+              />
+              <div class="card-info">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim.
+                </p>
+
+                <a className="button-project" href="goal.com">
+                  View Project
+                </a>
+              </div>
+              <div class="color-overlay"></div>
+              <a className="project-before">View Project</a>
+            </div>
+          </li>
+
+          <li class="cards_item">
+            <div class="card">
+              <img
+                class="content-image"
+                src="https://res.cloudinary.com/cortehz/image/upload/v1571931358/Senate_Shit_Background_only_hl9yar.png"
+              />
+              <div class="card-info">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim.
+                </p>
+
+                <a className="button-project" href="goal.com">
+                  View Project
+                </a>
+              </div>
+              <div class="color-overlay"></div>
+              <a className="project-before">View Project</a>
             </div>
           </li>
         </ul>
