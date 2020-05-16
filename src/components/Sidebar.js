@@ -24,7 +24,7 @@ export class Sidebar extends Component {
     const { tabs } = this.state;
     return (
       <nav
-        className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+        className="navbar navbar-expand-lg navbar-dark fixed-top"
         id="sideNav"
       >
         <a className="navbar-brand" href="#page-top">

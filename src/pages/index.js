@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
+import triangle from '../assets/images/triangle.svg';
 
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
@@ -14,13 +15,26 @@ const IndexPage = () => (
         id="about"
       >
         <div className="w-100">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-2 d-flex align-items-center justify-content-center">
+                <img
+                  className="img-fluid img-profile mx-auto mb-2"
+                  src={triangle}
+                  alt=""
+                />
+              </div>
+
+              <h3 className="hey">HEY!</h3>
+            </div>
+          </div>
           <h1 className="mb-0">
-            {config.firstName}
-            <span className="text-primary">{config.lastName}</span>
+            I'm {config.firstName}
+            <span className="surname"> {config.lastName}</span>
           </h1>
+          <div className="role mb-1 mt-2">{config.role}</div>
           <div className="subheading mb-5">
-            {config.address} · {config.phone} ·
-            <a href={`mailto:${config.email}`}>{config.email}</a>
+            <i class="fas fa-map-pin"></i> {config.address} · {config.phone}
           </div>
           <p className="lead mb-5">
             I am experienced in leveraging agile frameworks to provide a robust
@@ -121,6 +135,67 @@ const IndexPage = () => (
       </section>
 
       <hr className="m-0" />
+
+      <div class="articles">
+        <h1>
+          <span>Portfolio</span>
+        </h1>
+        <ul class="cards">
+          <li class="cards_item">
+            <div class="card">
+              <img
+                class="content-image"
+                src="https://res.cloudinary.com/cortehz/image/upload/v1571931358/Senate_Shit_Background_only_hl9yar.png"
+              />
+              <div class="card-info">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim.
+              </div>
+              <div class="color-overlay"></div>
+              <a>View Project</a>
+            </div>
+          </li>
+
+          <li class="cards_item">
+            <div class="card">
+              <img
+                class="content-image"
+                src="https://res.cloudinary.com/cortehz/image/upload/v1571931358/Senate_Shit_Background_only_hl9yar.png"
+              />
+              <div class="card-info">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim.
+              </div>
+              <div class="color-overlay"></div>
+            </div>
+          </li>
+
+          <li class="cards_item">
+            <div class="card">
+              <img
+                class="content-image"
+                src="https://res.cloudinary.com/cortehz/image/upload/v1571931358/Senate_Shit_Background_only_hl9yar.png"
+              />
+            </div>
+          </li>
+
+          <li class="cards_item">
+            <div class="card">
+              <img
+                class="content-image"
+                src="https://res.cloudinary.com/cortehz/image/upload/v1571931358/Senate_Shit_Background_only_hl9yar.png"
+              />
+              <div class="card-info">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim.
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
 
       <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"

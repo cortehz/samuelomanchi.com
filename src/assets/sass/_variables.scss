@@ -1,5 +1,16 @@
 // Variables
+$primaryWhite: hsl(0, 0%, 100%);
+$veryLightGray: hsl(0, 0%, 98%);
+$LimeGreen: hsl(136, 65%, 51%);
+$DarkBlue: hsl(233, 26%, 24%);
+$BrightCyan: hsl(192, 70%, 51%);
+$GrayishBlue: hsl(233, 8%, 62%);
+$LightGrayishBlue: hsl(220, 16%, 96%);
 
+$fontFam: "Open Sans";
+$bodyCopy: 18px;
+
+$breakpoint-tablet: 640px;
 // Restate Bootstrap Variables
 
 $white: #fff !default;
@@ -11,7 +22,7 @@ $gray-500: #adb5bd !default;
 $gray-600: #868e96 !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
-$gray-900: #212529 !default;
+$gray-900: #28262c !default;
 $black: #000 !default;
 
 $blue: #007bff !default;
@@ -20,7 +31,7 @@ $purple: #6f42c1 !default;
 $pink: #e83e8c !default;
 $red: #dc3545 !default;
 $orange: #bd5d38 !default;
-$yellow: #ffc107 !default;
+$yellow: #f5d01e !default;
 $green: #28a745 !default;
 $teal: #20c997 !default;
 $cyan: #17a2b8 !default;

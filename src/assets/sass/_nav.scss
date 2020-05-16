@@ -1,9 +1,14 @@
 #sideNav {
+  background: $gray-900;
+  padding: 0;
+
   .navbar-nav .nav-item .nav-link {
     font-weight: 800;
     letter-spacing: 0.05rem;
     text-transform: uppercase;
+    padding: 10px 0;
   }
+
   .navbar-toggler {
     &:focus {
       outline-color: lighten($primary, 15%);
@@ -23,17 +28,20 @@
 
     width: $sidebar-base-width;
     height: 100vh;
+
     .navbar-brand {
       display: flex;
 
       margin: auto auto 0;
       padding: 0.5rem;
+
       .img-profile {
         max-width: 10rem;
         max-height: 10rem;
         border: 0.5rem solid fade-out($white, 0.8);
       }
     }
+
     .navbar-collapse {
       display: flex;
       align-items: flex-start;
@@ -41,12 +49,15 @@
 
       width: 100%;
       margin-bottom: auto;
+
       .navbar-nav {
         flex-direction: column;
 
         width: 100%;
+
         .nav-item {
           display: block;
+
           .nav-link {
             display: block;
           }
@@ -54,4 +65,10 @@
       }
     }
   }
+}
+
+
+.navbar-dark .navbar-nav .active>.nav-link {
+  color: $warning;
+  border-left: 3px solid $warning;
 }
