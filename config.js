@@ -20,7 +20,7 @@ module.exports = {
     {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
-      url: 'https://linkedin.com/in/theanubhav/',
+      url: 'https://www.linkedin.com/in/samuel-omanchi-aa49708a/',
     },
     {
       icon: 'fa-twitter',

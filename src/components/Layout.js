@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 
+import { ThemeProvider, CSSReset } from '@chakra-ui/core';
+
 import '../assets/sass/resume.scss';
 
 class Layout extends Component {
@@ -30,7 +32,10 @@ class Layout extends Component {
             >
               <html lang="en" />
             </Helmet>
-            <div className={'main-body'}>{children}</div>
+
+            <ThemeProvider>
+              <div className={'main-body'}>{children}</div>
+            </ThemeProvider>
           </>
         )}
       />

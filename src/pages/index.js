@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Tab, TabList, Tabs, TabPanel, TabPanels } from '@chakra-ui/core';
 import Layout from '../components/Layout';
 import triangle from '../assets/images/triangle.svg';
 import portfolio from '../portfolio.json';
@@ -38,10 +38,10 @@ const IndexPage = () => (
             <i class="fas fa-map-pin"></i> {config.address} · {config.phone}
           </div>
           <p className="lead mb-5">
-            I am experienced in leveraging agile frameworks to provide a robust
-            synopsis for high level overviews. Iterative approaches to corporate
-            strategy foster collaborative thinking to further the overall value
-            proposition.
+            I am experienced an experience problem solver using Web and Mobile
+            Technologies to meet business and individuals at their point of
+            need. the utmost professional that is well-versed in many of the
+            latest web and mobile technologies. Currently available for hire.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -67,69 +67,68 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Front end Web Developer</h3>
+              <h3 className="mb-0">Front end Developer</h3>
               <div className="subheading mb-3">Eventera.io</div>
               <p>
-                Bring to the table win-win survival strategies to ensure
-                proactive domination. At the end of the day, going forward, a
-                new normal that has evolved from generation X is on the runway
-                heading towards a streamlined cloud solution. User generated
-                content in real-time will have multiple touchpoints for
-                offshoring.
+                Building pixel perfect Interfaces during my time at Remotely
+                Eventera. Eventera is an Edtech startup looking to use video
+                streaming technologies to make eduaction accessible
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">March 2013 - Present</span>
+              <span className="text-primary">December 2019</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Front End Developer</h3>
+              <div className="subheading mb-3">Liferithms Inc</div>
               <p>
-                Capitalize on low hanging fruit to identify a ballpark value
-                added activity to beta test. Override the digital divide with
-                additional clickthroughs from DevOps. Nanotechnology immersion
-                along the information highway will close the loop on focusing
-                solely on the bottom line.
+                Liferithms is a Lifestyle Data Analytics Company aimed at
+                advancing health and well-being. We are aggregating data from
+                multiple sources to provide users with actionable insights to
+                aid positive behavioral change and better lifestyle choices.
+                Lifechitect is Liferithms’s Time Budgeting App used to boost
+                productivity, find balance and improve well-being via time
+                tracking, activity analytics and a weekly Life Score based on
+                the duration and kind of activities performed in one week.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">December 2011 - March 2013</span>
+              <span className="text-primary">October 2019 - December 2019</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Junior Web Designer</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
+              <h3 className="mb-0">Front End Developer</h3>
+              <div className="subheading mb-3">HNG Internship</div>
               <p>
-                Podcasting operational change management inside of workflows to
-                establish a framework. Taking seamless key performance
-                indicators offline to maximise the long tail. Keeping your eye
-                on the ball while performing a deep dive on the start-up
-                mentality to derive convergence on cross-platform integration.
+                Took part in the 4th, 5th, and 6th HNG Internship as a front-end
+                and mobile developer. Turning designs and wireframes into
+                responsive user interfaces with HTML, CSS, JS (ReactJs and React
+                Native). Collaborating across teams to build various projects.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">July 2010 - December 2011</span>
+              <span className="text-primary">9 months Cummulative</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
-              <h3 className="mb-0">Web Design Intern</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
+              <h3 className="mb-0">
+                Graphi designer, Web and Content Developer.
+              </h3>
+              <div className="subheading mb-3">Nationa Assembly Nigeria</div>
               <p>
-                Collaboratively administrate empowered markets via plug-and-play
-                networks. Dynamically procrastinate B2C users after installed
-                base benefits. Dramatically visualize customer directed
-                convergence without revolutionary ROI.
+                Spent 4 years building Web Applications then created managed
+                contents at the Nigerian National Assembly.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">September 2008 - June 2010</span>
+              <span className="text-primary">June 2015 - June 2019</span>
             </div>
           </div>
         </div>
@@ -141,29 +140,151 @@ const IndexPage = () => (
         <h1>
           <span>Portfolio</span>
         </h1>
-        <ul class="cards">
-          {portfolio.portfolio.map(port => {
-            const { id, name, description, imageAddress, webAddress } = port;
-            return (
-              <li key={id} class="cards_item">
-                <div class="card">
-                  <img class="content-image" src={imageAddress} />
-                  <div class="card-info">
-                    <p>{description}</p>
 
-                    <a className="button-project" href={webAddress}>
-                      View Project
-                    </a>
-                  </div>
-                  <a className="project-before">
-                    <span>{name}</span>
-                    <i class="far fa-hand-pointer"></i>
-                  </a>
-                </div>
-              </li>
-            );
-          })}
-        </ul>
+        <Tabs variant="unstyled">
+          <TabList className="tablist">
+            <Tab
+              _selected={{
+                color: '#28262c',
+                borderBottom: '3px solid #f5d01e',
+              }}
+              className="tab-head"
+            >
+              Web Development
+            </Tab>
+            <Tab
+              _selected={{
+                color: '#28262c',
+                borderBottom: '3px solid #f5d01e',
+              }}
+              className="tab-head"
+            >
+              Logo Design
+            </Tab>
+
+            <Tab
+              _selected={{
+                color: '#28262c',
+                borderBottom: '3px solid #f5d01e',
+              }}
+              className="tab-head"
+            >
+              UI Design
+            </Tab>
+
+            <Tab
+              _selected={{
+                color: '#28262c',
+                borderBottom: '3px solid #f5d01e',
+              }}
+              className="tab-head"
+            >
+              Icons
+            </Tab>
+          </TabList>
+          <TabPanels>
+            <TabPanel>
+              <ul class="cards">
+                {portfolio.webdev.map(port => {
+                  const {
+                    id,
+                    name,
+                    description,
+                    imageAddress,
+                    webAddress,
+                  } = port;
+                  return (
+                    <li key={id} class="cards_item">
+                      <div class="card">
+                        <img class="content-image" src={imageAddress} />
+                        <div class="card-info">
+                          <p>{description}</p>
+
+                          <a
+                            className="button-project"
+                            href={webAddress}
+                            target="_blanck"
+                          >
+                            View Project
+                          </a>
+                        </div>
+                        <a className="project-before">
+                          <span>{name}</span>
+                          <i class="far fa-hand-pointer"></i>
+                        </a>
+                      </div>
+                    </li>
+                  );
+                })}
+              </ul>
+            </TabPanel>
+            <TabPanel>
+              <ul class="cards">
+                {portfolio.logodesign.map(port => {
+                  const { id, name, description, imageAddress } = port;
+                  return (
+                    <li key={id} class="cards_item">
+                      <div class="card">
+                        <img class="content-image" src={imageAddress} />
+                        <div class="card-info">
+                          <p>{description}</p>
+                        </div>
+                        <a className="project-before">
+                          <span>{name}</span>
+                          <i class="far fa-hand-pointer"></i>
+                        </a>
+                      </div>
+                    </li>
+                  );
+                })}
+              </ul>
+            </TabPanel>
+
+            <TabPanel>
+              <ul class="cards">
+                {portfolio.uidesigns.map(port => {
+                  const { id, name, description, imageAddress } = port;
+                  return (
+                    <li key={id} class="cards_item">
+                      <div class="card">
+                        <img class="content-image" src={imageAddress} />
+                        <div class="card-info">
+                          <p>{description}</p>
+                        </div>
+                        <a className="project-before">
+                          <span>{name}</span>
+                          <i class="far fa-hand-pointer"></i>
+                        </a>
+                      </div>
+                    </li>
+                  );
+                })}
+              </ul>
+            </TabPanel>
+
+            <TabPanel>
+              <ul class="cards">
+                {portfolio.icons.map(port => {
+                  const { id, name, description, imageAddress } = port;
+                  return (
+                    <li key={id} class="cards_item">
+                      <div class="card">
+                        <img class="content-image" src={imageAddress} />
+                        <div class="card-info">
+                          <p>{description}</p>
+                        </div>
+                        <a className="project-before">
+                          <span>{name}</span>
+                          <i class="far fa-hand-pointer"></i>
+                        </a>
+                      </div>
+                    </li>
+                  );
+                })}
+              </ul>
+            </TabPanel>
+          </TabPanels>
+        </Tabs>
       </div>
 
       <section
@@ -191,7 +312,7 @@ const IndexPage = () => (
               <div>Physics</div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2002 - May 2006</span>
+              <span className="text-primary">February 2008 - March 2013</span>
             </div>
           </div>
         </div>
@@ -220,31 +341,34 @@ const IndexPage = () => (
               <i className="fab fa-js-square"></i>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-angular"></i>
+              <i class="fab fa-bootstrap"></i>
             </li>
             <li className="list-inline-item">
               <i className="fab fa-react"></i>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-node-js"></i>
+              <i class="fab fa-node"></i>
             </li>
             <li className="list-inline-item">
               <i className="fab fa-sass"></i>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-less"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-wordpress"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-gulp"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-grunt"></i>
+              <i class="fab fa-git"></i>
             </li>
             <li className="list-inline-item">
               <i className="fab fa-npm"></i>
+            </li>
+
+            <li className="list-inline-item">
+              <i class="fab fa-php"></i>
+            </li>
+
+            <li className="list-inline-item">
+              <img
+                src="https://res.cloudinary.com/cortehz/image/upload/v1590221899/png-transparent-dart-google-developers-flutter-android-darts-text-logo-web-application-removebg-preview_hnonra.png"
+                width="150px"
+                alt="dart language"
+              />
             </li>
           </ul>
 
@@ -252,7 +376,7 @@ const IndexPage = () => (
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design
+              Responsive Design Development
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
@@ -264,32 +388,9 @@ const IndexPage = () => (
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum
+              Version Control
             </li>
           </ul>
-        </div>
-      </section>
-
-      <hr className="m-0" />
-
-      <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="interests"
-      >
-        <div className="w-100">
-          <h2 className="mb-5">Interests</h2>
-          <p>
-            Apart from being a web developer, I enjoy most of my time being
-            outdoors. In the winter, I am an avid skier and novice ice climber.
-            During the warmer months here in Colorado, I enjoy mountain biking,
-            free climbing, and kayaking.
-          </p>
-          <p className="mb-0">
-            When forced indoors, I follow a number of sci-fi and fantasy genre
-            movies and television shows, I am an aspiring chef, and I spend a
-            large amount of my free time exploring the latest technology
-            advancements in the front-end web development world.
-          </p>
         </div>
       </section>
 
@@ -304,34 +405,36 @@ const IndexPage = () => (
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
-              Google Analytics Certified Developer
+              Mobile Web Specialist - Google Africa Scholarship
             </li>
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
-              Mobile Web Specialist - Google Certification
+              Building Web Layouts with CSS - OpenClassrooms
             </li>
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2009
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              Build your Web Projects with Rest APIs - OpenClassrooms
             </li>
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008
-              (UI Design Category)
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              Implementing a Relational Database with SQL - OpenClassrooms
             </li>
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>2<sup>nd</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2008
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              Web Developer Bootcamp With Colt Steele on Udemy
             </li>
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - James Buchanan High School - Hackathon 2006
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              Advanced Web Developer Bootcamp With Colt Steele on Udemy
             </li>
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>3<sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              Complete React and Redux Course With Stephen Grider on Udemy
+            </li>
+
+            <li>
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              Complete React Native and Redux Course With Stephen Grider
             </li>
           </ul>
         </div>
