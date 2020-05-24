@@ -13,12 +13,12 @@
   }
 
   .navbar-nav .nav-item .nav-link {
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 0.05rem;
     text-transform: uppercase;
     padding: 10px 0;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
     font-size: 10px;
   }
 
@@ -39,9 +39,8 @@
 
 @media (max-width: 484px) {
   .navbar-nav .nav-item .nav-link {
-    margin-left: 5px !important;
-    margin-right: 5px !important;
-    font-size: 8px !important;
+    margin-left: 2px !important;
+    margin-right: 2px !important;
   }
 }
 
