@@ -16,11 +16,11 @@ const IndexPage = () => (
         id="about"
       >
         <div className="w-100">
-          <div className="container">
+          <div className="container-fluid">
             <div className="row">
-              <div className="col-md-2 d-flex align-items-center justify-content-center">
+              <div className="col-md-2 col-sm-4 d-flex align-items-center justify-content-center">
                 <img
-                  className="img-fluid img-profile mx-auto mb-2"
+                  className="img-fluid img-profile triangle mb-2"
                   src={triangle}
                   alt=""
                 />
@@ -33,7 +33,7 @@ const IndexPage = () => (
             I'm {config.firstName}
             <span className="surname"> {config.lastName}</span>
           </h1>
-          <div className="role mb-1 mt-2">{config.role}</div>
+          <div className="role mb-1 mt-1">{config.role}</div>
           <div className="subheading mb-5">
             <i class="fas fa-map-pin"></i> {config.address} · {config.phone}
           </div>

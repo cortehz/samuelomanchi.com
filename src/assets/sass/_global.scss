@@ -6,6 +6,8 @@ body {
   color: $gray-600;
 }
 
+
+
 @media (min-width: 992px) {
   body {
     padding-top: 0;
@@ -31,6 +33,13 @@ h1 {
   // font-weight: 900;
 }
 
+@media (max-width: 505px) {
+  h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+}
+
 .surname {
   font-weight: 100;
 }
@@ -39,6 +48,14 @@ h1 {
   font-family: 'Satisfy', cursive;
   color: $gray-600;
   font-size: 2rem;
+}
+
+
+
+@media (max-width: 505px) {
+  .role {
+    font-size: 1rem;
+  }
 }
 
 h2 {
@@ -58,6 +75,16 @@ h3 {
 .hey {
   font-size: 10rem;
   color: $warning;
+}
+
+@media (max-width: 594px) {
+  .hey {
+    font-size: 6rem;
+  }
+
+  .triangle {
+    display: none;
+  }
 }
 
 p.lead {
@@ -164,11 +191,9 @@ p.lead {
 
       .card-info {
         opacity: 1;
-        background: linear-gradient(
-          to bottom,
-          rgba(73, 80, 87, 0.9) 40%,
-          rgba(73, 80, 87, 0.9) 100%
-        );
+        background: linear-gradient(to bottom,
+            rgba(73, 80, 87, 0.9) 40%,
+            rgba(73, 80, 87, 0.9) 100%);
         height: 100%;
       }
 
@@ -268,6 +293,7 @@ p.lead {
 
 .tablist {
   margin-bottom: 30px;
+
   .tab-head {
     border: none;
     margin-left: 15px;

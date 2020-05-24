@@ -2,11 +2,24 @@
   background: $gray-900;
   padding: 0;
 
+  .navbar-brand {
+    margin-left: 10px;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+
   .navbar-nav .nav-item .nav-link {
-    font-weight: 800;
+    font-weight: 300;
     letter-spacing: 0.05rem;
     text-transform: uppercase;
     padding: 10px 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 10px;
   }
 
   .navbar-toggler {
@@ -15,6 +28,23 @@
     }
   }
 }
+
+.navbar-dark .navbar-nav .active>.nav-link {
+  color: $warning;
+  border-bottom: 3px solid $warning;
+  height: 100%;
+  display: block;
+}
+
+
+@media (max-width: 484px) {
+  .navbar-nav .nav-item .nav-link {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    font-size: 8px !important;
+  }
+}
+
 
 @media (min-width: 992px) {
   #sideNav {
@@ -28,6 +58,17 @@
 
     width: $sidebar-base-width;
     height: 100vh;
+
+
+    .navbar-nav .nav-item .nav-link {
+      font-weight: 300;
+      letter-spacing: 0.05rem;
+      text-transform: uppercase;
+      padding: 10px 0;
+      font-weight: 600;
+      margin: 0;
+      font-size: 1rem;
+    }
 
     .navbar-brand {
       display: flex;
@@ -67,7 +108,11 @@
   }
 }
 
-.navbar-dark .navbar-nav .active > .nav-link {
-  color: $warning;
-  border-left: 3px solid $warning;
+
+@media (min-width: 992px) {
+  .navbar-dark .navbar-nav .active>.nav-link {
+    color: $warning;
+    border-left: 3px solid $warning;
+    border-bottom: none;
+  }
 }
