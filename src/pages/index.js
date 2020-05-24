@@ -148,7 +148,7 @@ const IndexPage = () => (
                 color: '#28262c',
                 borderBottom: '3px solid #f5d01e',
               }}
-              className="tab-head"
+              className="tab-head first-button"
             >
               Web Development
             </Tab>

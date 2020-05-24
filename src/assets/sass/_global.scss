@@ -149,7 +149,11 @@ p.lead {
 
   @media (max-width: $breakpoint-tablet) {
     h1 {
-      // text-align: center;
+      margin-left: 0;
+    }
+
+    .first-button {
+      margin-left: 0 !important;
     }
   }
 
