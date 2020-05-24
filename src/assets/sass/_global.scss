@@ -139,7 +139,7 @@ p.lead {
 }
 
 .articles {
-  padding: 50px 30px 100px 30px;
+  padding: 50px 5px 100px 5px;
   margin: 0 auto;
   background-color: $veryLightGray;
 
@@ -149,7 +149,7 @@ p.lead {
 
   @media (max-width: $breakpoint-tablet) {
     h1 {
-      text-align: center;
+      // text-align: center;
     }
   }
 
@@ -293,7 +293,7 @@ p.lead {
 
 @media (max-width: $breakpoint-tablet) {
   .articles {
-    padding: 30px 30px;
+    padding: 20px 20px;
   }
 }
 
