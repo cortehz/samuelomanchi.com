@@ -38,10 +38,10 @@ const IndexPage = () => (
             <i class="fas fa-map-pin"></i> {config.address} · {config.phone}
           </div>
           <p className="lead mb-5">
-            I am experienced an problem solver using Web and Mobile
-            Technologies to meet business and individuals at their point of
-            need. The utmost professional that is well-versed in many of the
-            latest web and mobile technologies. Currently available for hire.
+            I am experienced an problem solver using Web and Mobile Technologies
+            to meet business and individuals at their point of need. The utmost
+            professional that is well-versed in many of the latest web and
+            mobile technologies. Currently available for hire.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -70,9 +70,9 @@ const IndexPage = () => (
               <h3 className="mb-0">Front end Developer</h3>
               <div className="subheading mb-3">Eventera.io</div>
               <p>
-                Building pixel perfect Interfaces during my time at Remotely
-                Eventera. Eventera is an Edtech startup looking to use video
-                streaming technologies to make eduaction accessible
+                Building pixel perfect Interfaces with ReactJs during my time at
+                Remotely Eventera. Eventera is an Edtech startup looking to use
+                video streaming technologies to make eduaction accessible
               </p>
             </div>
             <div className="resume-date text-md-right">
