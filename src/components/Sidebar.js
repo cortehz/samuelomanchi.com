@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Scrollspy from 'react-scrollspy';
 import Scroll from './Scroll';
 
-import avatar from '../assets/images/avatar.png';
+import avatar from '../assets/images/asset3@4x.png';
 // import avatar2 from '../assets/images/avatar.png';
 
 // import config from '../../config';
