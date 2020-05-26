@@ -38,9 +38,9 @@ const IndexPage = () => (
             <i class="fas fa-map-pin"></i> {config.address} · {config.phone}
           </div>
           <p className="lead mb-5">
-            I am experienced an experience problem solver using Web and Mobile
+            I am experienced an problem solver using Web and Mobile
             Technologies to meet business and individuals at their point of
-            need. the utmost professional that is well-versed in many of the
+            need. The utmost professional that is well-versed in many of the
             latest web and mobile technologies. Currently available for hire.
           </p>
           <div className="social-icons">
@@ -119,9 +119,9 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
               <h3 className="mb-0">
-                Graphi designer, Web and Content Developer.
+                Graphic designer, Web and Content Developer.
               </h3>
-              <div className="subheading mb-3">Nationa Assembly Nigeria</div>
+              <div className="subheading mb-3">National Assembly Nigeria</div>
               <p>
                 Spent 4 years building Web Applications then created managed
                 contents at the Nigerian National Assembly.

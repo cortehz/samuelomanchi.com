@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import Scrollspy from 'react-scrollspy';
 import Scroll from './Scroll';
 
-import avatar from '../assets/images/avatar.png';
+import avatar from '../assets/images/asset1.svg';
+import avatar2 from '../assets/images/avatar.png';
+
 import config from '../../config';
 
 export class Sidebar extends Component {
@@ -28,12 +30,21 @@ export class Sidebar extends Component {
         id="sideNav"
       >
         <a className="navbar-brand" href="#page-top">
+          <span className="d-block d-lg-none">
+  <img
+              className="img-fluid img-profile rounded-circle mx-auto mb-2"
+              src={avatar}
+              alt=""
+              width="50px"
+            />
+          </span>
           <span className="d-none d-lg-block">
             <img
               className="img-fluid img-profile rounded-circle mx-auto mb-2"
               src={avatar}
               alt=""
-            />
+              width="90px"
+/>
           </span>
         </a>
         <div className="navbar-collapse" id="navbarSupportedContent">

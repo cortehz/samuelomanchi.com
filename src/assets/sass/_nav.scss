@@ -3,13 +3,14 @@
   padding: 0;
 
   .navbar-brand {
-    margin-left: 10px;
+    margin-left: 5px;
   }
 
   .navbar-nav {
     display: flex;
     flex-direction: row;
     height: 100%;
+     margin-left: 5px;
   }
 
   .navbar-nav .nav-item .nav-link {
