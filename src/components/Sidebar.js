@@ -3,9 +3,9 @@ import Scrollspy from 'react-scrollspy';
 import Scroll from './Scroll';
 
 import avatar from '../assets/images/asset1.svg';
-import avatar2 from '../assets/images/avatar.png';
+// import avatar2 from '../assets/images/avatar.png';
 
-import config from '../../config';
+// import config from '../../config';
 
 export class Sidebar extends Component {
   constructor(props) {
@@ -31,7 +31,7 @@ export class Sidebar extends Component {
       >
         <a className="navbar-brand" href="#page-top">
           <span className="d-block d-lg-none">
-  <img
+            <img
               className="img-fluid img-profile rounded-circle mx-auto mb-2"
               src={avatar}
               alt=""
@@ -44,7 +44,7 @@ export class Sidebar extends Component {
               src={avatar}
               alt=""
               width="90px"
-/>
+            />
           </span>
         </a>
         <div className="navbar-collapse" id="navbarSupportedContent">
