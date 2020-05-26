@@ -59,7 +59,7 @@ export class Sidebar extends Component {
               return (
                 <li className="nav-item" key={href}>
                   <Scroll type="id" element={href}>
-                    <a className="nav-link" href={`#${href}`}>
+                    <a className="nav-link" href={`#${href}`} target="_blanck">
                       {content}
                     </a>
                   </Scroll>
