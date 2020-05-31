@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Scrollspy from 'react-scrollspy';
 import Scroll from './Scroll';
 
-import avatar from '../assets/images/Asset3@4x.png';
-// import avatar2 from '../assets/images/avatar.png';
+// import avatar from '../assets/images/Asset3@4x.png';
+import avatar2 from '../assets/images/avatar.png';
 
 // import config from '../../config';
 
@@ -33,15 +33,15 @@ export class Sidebar extends Component {
           <span className="d-block d-lg-none">
             <img
               className="img-fluid img-profile rounded-circle mx-auto mb-2"
-              src={avatar}
+              src={avatar2}
               alt=""
-              width="50px"
+              width="60px"
             />
           </span>
           <span className="d-none d-lg-block">
             <img
               className="img-fluid img-profile rounded-circle mx-auto mb-2"
-              src={avatar}
+              src={avatar2}
               alt=""
               width="90px"
             />

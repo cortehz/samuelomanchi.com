@@ -67,6 +67,23 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
+              <h3 className="mb-0">Volunteer Web Developer</h3>
+              <div className="subheading mb-3">
+                VS Kultur, Creative Hub Bremen
+              </div>
+              <p>
+                Individual contributor/volunteer at VS Kultur, Creative Hub
+                Bremen. A non-profit organization helping offering support for
+                ideas and projects via direct access to knowledge.
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">March 2020 - Present</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
               <h3 className="mb-0">Front end Developer</h3>
               <div className="subheading mb-3">Eventera.io</div>
               <p>
@@ -297,7 +314,7 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Universität Bremen</h3>
-              <div className="subheading mb-3">Master of Science</div>
+              <div className="subheading">Master of Science</div>
               <div>Environmental Physics</div>
             </div>
             <div className="resume-date text-md-right">
@@ -305,10 +322,23 @@ const IndexPage = () => (
             </div>
           </div>
 
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Freecodecamp</h3>
+              <div className="subheading">
+                Full Stack Web Development Certification
+              </div>
+              <div>Computer Software Engineering</div>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">2018 - Present</span>
+            </div>
+          </div>
+
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
               <h3 className="mb-0">University of Agriculture Makurdi</h3>
-              <div className="subheading mb-3">Bachelor of Science</div>
+              <div className="subheading">Bachelor of Science</div>
               <div>Physics</div>
             </div>
             <div className="resume-date text-md-right">

@@ -25,7 +25,7 @@
 
         {
             "Id": 4,
-            "name": "Easy Bank",
+            "name": "Liberty Therapies",
             "description": "Website for Liberty Therapies",
             "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1589666601/screencapture-libertytherapies-org-2020-05-16-20_34_42_lvqfkk.png",
             "webAddress": "https://libertytherapies.org"
@@ -38,13 +38,13 @@
             "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1589668340/screencapture-atpeacecentre-ng-2020-05-16-20_01_26_btwfus.png",
             "webAddress": "https://atpeacecentre.com.ng"
         }, {
-            "Id": 1,
+            "Id": 6,
             "name": "Hon. Hassan Saleh",
             "description": "Website for a member of the Nigerian National Assemble during the 7th and 8th National Assembly",
             "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1589669263/screencapture-hassansaleh-netlify-2020-05-16-20_25_15_ry1a9s.png",
             "webAddress": "https://hassansaleh.netlify.app"
         }, {
-            "Id": 1,
+            "Id": 7,
             "name": "Estreet Hero App",
             "description": "Landing Page for Estreet Hero App ",
             "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1589671819/screencapture-estreethero-2020-05-16-20_09_38_wkbykt.png",
@@ -52,7 +52,7 @@
         },
 
         {
-            "Id": 1,
+            "Id": 8,
             "name": "Lucid App",
             "description": "Privacy Conscious Content Creating Platform built as part of a Team at the HNG Techs Remote Software Development Internship",
             "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1589671715/screencapture-lucid-blog-2020-05-16-20_23_10_cbwlbj.png",
@@ -60,16 +60,16 @@
         },
 
         {
-            "Id": 1,
-            "name": "Easy Bank",
+            "Id": 9,
+            "name": "WhyteBoard",
             "description": "Fullstack JavaScript Student Resource Application with CRUD, Authetication and Authorization. Built with NodeJs.",
             "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1589671452/screencapture-whyteboard-herokuapp-courses-2020-05-17-01_20_48_ot23vg.png",
             "webAddress": "https://whyteboard.herokuapp.com"
         },
 
         {
-            "Id": 1,
-            "name": "Easy Bank",
+            "Id": 10,
+            "name": "Dashboard",
             "description": "Data Dashboard UI development",
             "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1587326546/liferithms_zmd46y.png",
             "webAddress": "https://questiontwo.netlify.app"
@@ -141,19 +141,19 @@
             "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215813/Header_1_oortgy.png"
         },
         {
-            "Id": 1,
+            "Id": 2,
             "name": "Landing Page Design",
             "description": "Landing Page design for Womenure.",
             "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215813/Header_1_oortgy.png"
         },
         {
-            "Id": 1,
+            "Id": 3,
             "name": "Mobile App",
             "description": "Mobile App Splash Screen Design with AdobeXD",
             "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590217587/Header_1_copy_srpsba.png"
         },
         {
-            "Id": 1,
+            "Id": 4,
             "name": "Mobile App Design",
             "description": "Mobile App Splash Screen Design with AdobeXD",
             "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590217820/Header_1_copy_lv27hg.png"
