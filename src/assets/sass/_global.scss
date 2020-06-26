@@ -1,4 +1,9 @@
 // Global styling for this template
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
 
 body {
   @include body-font;
@@ -141,7 +146,7 @@ p.lead {
 }
 
 .articles {
-  padding: 50px 2rem 100px 2rem;
+  padding: 50px 2rem 50px 2rem;
   margin: 0 auto;
   background-color: $veryLightGray;
 
@@ -263,14 +268,23 @@ p.lead {
 
     .button-project {
       display: block;
-      background: $warning;
       text-decoration: none;
       font-weight: 500;
       padding: 5px 15px;
-      color: #fafafa;
-      border-radius: 15px;
+      color: $secondary;
       font-size: 1rem;
-      width: 130px;
+      transition: 1s ease-in;
+
+
+      i {
+        color: $warning;
+        margin-left: 10px;
+
+      }
+
+      &:hover {
+        margin-right: 10px;
+      }
     }
   }
 
