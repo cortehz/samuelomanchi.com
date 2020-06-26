@@ -194,12 +194,12 @@ p.lead {
 
   .cards_item {
     display: flex;
+    flex-direction: column;
     padding: 1rem;
     background-color: $veryLightGray;
 
     a {
-      position: absolute;
-      top: 90%;
+      margin-top: 20px;
     }
 
     &:hover {
@@ -224,6 +224,7 @@ p.lead {
       width: 100%;
       position: absolute;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       // bottom: 100px;
@@ -240,17 +241,7 @@ p.lead {
       border-radius: 0.25rem;
       text-align: center;
 
-      a {
-        display: block;
-        background: $warning;
-        text-decoration: none;
-        font-weight: 500;
-        padding: 5px 15px;
-        margin-top: -20px;
-        color: #fafafa;
-        border-radius: 15px;
-        font-size: 1rem;
-      }
+
     }
 
     .color-overlay {
@@ -268,6 +259,18 @@ p.lead {
     @media (max-width: $breakpoint-tablet) {
       padding: 0;
       margin-bottom: 40px;
+    }
+
+    .button-project {
+      display: block;
+      background: $warning;
+      text-decoration: none;
+      font-weight: 500;
+      padding: 5px 15px;
+      color: #fafafa;
+      border-radius: 15px;
+      font-size: 1rem;
+      width: 130px;
     }
   }
 

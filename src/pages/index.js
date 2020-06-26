@@ -216,20 +216,20 @@ const IndexPage = () => (
                         <img class="content-image" src={imageAddress} />
                         <div class="card-info">
                           <p>{description}</p>
-
-                          <a
-                            className="button-project"
-                            href={webAddress}
-                            target="_blanck"
-                          >
-                            View Project
-                          </a>
                         </div>
                         <a className="project-before">
                           <span>{name}</span>
                           <i class="far fa-hand-pointer"></i>
                         </a>
                       </div>
+
+                      <a
+                        className="button-project"
+                        href={webAddress}
+                        target="_blanck"
+                      >
+                        View Project
+                      </a>
                     </li>
                   );
                 })}
