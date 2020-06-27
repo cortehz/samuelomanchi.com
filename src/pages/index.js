@@ -238,9 +238,9 @@ const IndexPage = () => (
             <TabPanel>
               <ul class="cards">
                 {portfolio.logodesign.map(port => {
-                  const { id, name, description, imageAddress } = port;
+                  const { Id, name, description, imageAddress } = port;
                   return (
-                    <li key={id} class="cards_item">
+                    <li key={Id} class="cards_item">
                       <div class="card">
                         <img class="content-image" src={imageAddress} />
                         <div class="card-info">
@@ -260,9 +260,9 @@ const IndexPage = () => (
             <TabPanel>
               <ul class="cards">
                 {portfolio.uidesigns.map(port => {
-                  const { id, name, description, imageAddress } = port;
+                  const { Id, name, description, imageAddress } = port;
                   return (
-                    <li key={id} class="cards_item">
+                    <li key={Id} class="cards_item">
                       <div class="card">
                         <img class="content-image" src={imageAddress} />
                         <div class="card-info">
@@ -282,9 +282,9 @@ const IndexPage = () => (
             <TabPanel>
               <ul class="cards">
                 {portfolio.icons.map(port => {
-                  const { id, name, description, imageAddress } = port;
+                  const { Id, name, description, imageAddress } = port;
                   return (
-                    <li key={id} class="cards_item">
+                    <li key={Id} class="cards_item">
                       <div class="card">
                         <img class="content-image" src={imageAddress} />
                         <div class="card-info">
