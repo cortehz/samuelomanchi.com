@@ -1,163 +1,166 @@
 {
-    "webdev": [{
-            "Id": 1,
-            "name": "Easy Bank",
-            "description": "Landing page design for this fictional Digital Banking Platform Easy Bank. Buils with HTML5, SCSS(flexbox), and Vanilla JavaScript.",
-            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1589666616/screencapture-easy-bank-netlify-app-2020-05-16-20_10_24_ehr6a9.png",
-            "webAddress": "https://easy-bank.netlify.app"
-        },
+  "webdev": [
+    {
+      "Id": 1,
+      "name": "Easy Bank",
+      "description": "Landing page design for this fictional Digital Banking Platform Easy Bank. Buils with HTML5, SCSS(flexbox), and Vanilla JavaScript.",
+      "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1589666616/screencapture-easy-bank-netlify-app-2020-05-16-20_10_24_ehr6a9.png",
+      "webAddress": "https://easy-bank.netlify.app"
+    },
 
-        {
-            "Id": 2,
-            "name": "Northwind International",
-            "description": "Website for Northwind International Limited. Build with HTML5, CSS3, Bootstrap and JavaScript.",
-            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1589666603/screencapture-northwind-netlify-app-2020-05-16-20_13_38_wftlss.png",
-            "webAddress": "https://northwind.netlify.app"
-        },
+    {
+      "Id": 2,
+      "name": "Northwind International",
+      "description": "Website for Northwind International Limited. Build with HTML5, CSS3, Bootstrap and JavaScript.",
+      "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1589666603/screencapture-northwind-netlify-app-2020-05-16-20_13_38_wftlss.png",
+      "webAddress": "https://northwind.netlify.app"
+    },
 
-        {
-            "Id": 3,
-            "name": "Lifechitect App",
-            "description": "Landing page for Lifechitect App. Built during my time as a Front end Developer at Liferithms Inc.",
-            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1589666607/screencapture-lifechitectapp-netlify-app-2020-05-16-20_12_08_m2twa4.png",
-            "webAddress": "https://lifechitectapp.netlify.app"
-        },
+    {
+      "Id": 3,
+      "name": "Lifechitect App",
+      "description": "Landing page for Lifechitect App. Built during my time as a Front end Developer at Liferithms Inc.",
+      "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1589666607/screencapture-lifechitectapp-netlify-app-2020-05-16-20_12_08_m2twa4.png",
+      "webAddress": "https://lifechitectapp.netlify.app"
+    },
 
-        {
-            "Id": 4,
-            "name": "Liberty Therapies",
-            "description": "Website for Liberty Therapies",
-            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1589666601/screencapture-libertytherapies-org-2020-05-16-20_34_42_lvqfkk.png",
-            "webAddress": "https://libertytherapies.org"
-        },
+    {
+      "Id": 4,
+      "name": "Liberty Therapies",
+      "description": "Website for Liberty Therapies",
+      "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1589666601/screencapture-libertytherapies-org-2020-05-16-20_34_42_lvqfkk.png",
+      "webAddress": "https://libertytherapies.org"
+    },
 
-        {
-            "Id": 5,
-            "name": "At Peace Centre",
-            "description": "Website for At Peace Centre - Built with HTML5, CSS3, Bootstrap, JavaScript with Embed Youtube Channel, Embed Twitter and Facebook feeds.",
-            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1589668340/screencapture-atpeacecentre-ng-2020-05-16-20_01_26_btwfus.png",
-            "webAddress": "https://atpeacecentre.com.ng"
-        }, {
-            "Id": 6,
-            "name": "Hon. Hassan Saleh",
-            "description": "Website for a member of the Nigerian National Assemble during the 7th and 8th National Assembly",
-            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1589669263/screencapture-hassansaleh-netlify-2020-05-16-20_25_15_ry1a9s.png",
-            "webAddress": "https://hassansaleh.netlify.app"
-        }, {
-            "Id": 7,
-            "name": "Estreet Hero App",
-            "description": "Landing Page for Estreet Hero App ",
-            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1589671819/screencapture-estreethero-2020-05-16-20_09_38_wkbykt.png",
-            "webAddress": "https://estreethero.com"
-        },
+    {
+      "Id": 5,
+      "name": "At Peace Centre",
+      "description": "Website for At Peace Centre - Built with HTML5, CSS3, Bootstrap, JavaScript with Embed Youtube Channel, Embed Twitter and Facebook feeds.",
+      "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1589668340/screencapture-atpeacecentre-ng-2020-05-16-20_01_26_btwfus.png",
+      "webAddress": "https://atpeacecentre.com.ng"
+    },
+    {
+      "Id": 6,
+      "name": "Hon. Hassan Saleh",
+      "description": "Website for a member of the Nigerian National Assemble during the 7th and 8th National Assembly",
+      "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1589669263/screencapture-hassansaleh-netlify-2020-05-16-20_25_15_ry1a9s.png",
+      "webAddress": "https://hassansaleh.netlify.app"
+    },
+    {
+      "Id": 7,
+      "name": "Estreet Hero App",
+      "description": "Landing Page for Estreet Hero App ",
+      "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1589671819/screencapture-estreethero-2020-05-16-20_09_38_wkbykt.png",
+      "webAddress": "https://estreethero.com"
+    },
 
-        {
-            "Id": 8,
-            "name": "Lucid App",
-            "description": "Privacy Conscious Content Creating Platform built as part of a Team at the HNG Techs Remote Software Development Internship",
-            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1589671715/screencapture-lucid-blog-2020-05-16-20_23_10_cbwlbj.png",
-            "webAddress": "https://lucid.app"
-        },
+    {
+      "Id": 8,
+      "name": "Lucid App",
+      "description": "Privacy Conscious Content Creating Platform built as part of a Team at the HNG Techs Remote Software Development Internship",
+      "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1589671715/screencapture-lucid-blog-2020-05-16-20_23_10_cbwlbj.png",
+      "webAddress": "https://lucid.blog"
+    },
 
-        {
-            "Id": 9,
-            "name": "WhyteBoard",
-            "description": "Fullstack JavaScript Student Resource Application with CRUD, Authetication and Authorization. Built with NodeJs.",
-            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1589671452/screencapture-whyteboard-herokuapp-courses-2020-05-17-01_20_48_ot23vg.png",
-            "webAddress": "https://whyteboard.herokuapp.com"
-        },
+    {
+      "Id": 9,
+      "name": "WhyteBoard",
+      "description": "Fullstack JavaScript Student Resource Application with CRUD, Authetication and Authorization. Built with NodeJs.",
+      "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1589671452/screencapture-whyteboard-herokuapp-courses-2020-05-17-01_20_48_ot23vg.png",
+      "webAddress": "https://whyteboard.herokuapp.com"
+    },
 
-        {
-            "Id": 10,
-            "name": "Dashboard",
-            "description": "Data Dashboard UI development",
-            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1587326546/liferithms_zmd46y.png",
-            "webAddress": "https://questiontwo.netlify.app"
-        }
+    {
+      "Id": 10,
+      "name": "Dashboard",
+      "description": "Data Dashboard UI development",
+      "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1587326546/liferithms_zmd46y.png",
+      "webAddress": "https://questiontwo.netlify.app"
+    }
+  ],
 
-    ],
+  "logodesign": [
+    {
+      "Id": 1,
+      "name": "Tranquility Hotels",
+      "description": "Logo Design for Tranquility Hotels.",
+      "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215815/Tranquility_Logo3_whndmb.jpg"
+    },
 
-    "logodesign": [{
-            "Id": 1,
-            "name": "Tranquility Hotels",
-            "description": "Logo Design for Tranquility Hotels.",
-            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215815/Tranquility_Logo3_whndmb.jpg"
-        },
+    {
+      "Id": 2,
+      "name": "Heritage Roofs",
+      "description": "Logo design for Heritage Roofs",
+      "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215810/Essieno_Logo_New_yabe1m.jpg"
+    },
 
-        {
-            "Id": 2,
-            "name": "Heritage Roofs",
-            "description": "Logo design for Heritage Roofs",
-            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215810/Essieno_Logo_New_yabe1m.jpg"
-        },
+    {
+      "Id": 3,
+      "name": "Forever Hotels",
+      "description": "Logo Design for Forever Hotels",
+      "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215808/ForeverMockup_unih9j.jpg"
+    },
 
-        {
-            "Id": 3,
-            "name": "Forever Hotels",
-            "description": "Logo Design for Forever Hotels",
-            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215808/ForeverMockup_unih9j.jpg"
-        },
+    {
+      "Id": 4,
+      "name": "Procare Hotels",
+      "description": "Logo Design for Procare Hotels",
+      "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215806/Procare_Hotels3_abq63j.jpg"
+    },
 
-        {
-            "Id": 4,
-            "name": "Procare Hotels",
-            "description": "Logo Design for Procare Hotels",
-            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215806/Procare_Hotels3_abq63j.jpg"
-        },
+    {
+      "Id": 5,
+      "name": "Aqua Resort",
+      "description": "Logo Design for Aqua Resort",
+      "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215796/Aqua_Resort_Logo_l2lnwg.jpg"
+    },
+    {
+      "Id": 6,
+      "name": "Delish Restaurant",
+      "description": "Logo Design for Delish Restaurant",
+      "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215797/delish_1_l1qoxk.jpg"
+    },
+    {
+      "Id": 7,
+      "name": "Ed Football Championship",
+      "description": "Logo Design for Ed Football Championship",
+      "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215800/ed_logo_final_efmvgb.jpg"
+    }
+  ],
 
-        {
-            "Id": 5,
-            "name": "Aqua Resort",
-            "description": "Logo Design for Aqua Resort",
-            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215796/Aqua_Resort_Logo_l2lnwg.jpg"
-        }, {
-            "Id": 6,
-            "name": "Delish Restaurant",
-            "description": "Logo Design for Delish Restaurant",
-            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215797/delish_1_l1qoxk.jpg"
-        }, {
-            "Id": 7,
-            "name": "Ed Football Championship",
-            "description": "Logo Design for Ed Football Championship",
-            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215800/ed_logo_final_efmvgb.jpg"
-        }
+  "icons": [
+    {
+      "Id": 1,
+      "name": "Icons",
+      "description": "Science/Tech Icon Set",
+      "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215804/ScienITec_Icons_fmkvzy.jpg"
+    }
+  ],
 
-    ],
-
-
-
-    "icons": [{
-        "Id": 1,
-        "name": "Icons",
-        "description": "Science/Tech Icon Set",
-        "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215804/ScienITec_Icons_fmkvzy.jpg"
-    }],
-
-
-    "uidesigns": [{
-            "Id": 1,
-            "name": "Landing Page Design",
-            "description": "Landing Page design for Womenure.",
-            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215813/Header_1_oortgy.png"
-        },
-        {
-            "Id": 2,
-            "name": "Landing Page Design",
-            "description": "Landing Page design for Womenure.",
-            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215813/Header_1_oortgy.png"
-        },
-        {
-            "Id": 3,
-            "name": "Mobile App",
-            "description": "Mobile App Splash Screen Design with AdobeXD",
-            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590217587/Header_1_copy_srpsba.png"
-        },
-        {
-            "Id": 4,
-            "name": "Mobile App Design",
-            "description": "Mobile App Splash Screen Design with AdobeXD",
-            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590217820/Header_1_copy_lv27hg.png"
-        }
-
-    ]
+  "uidesigns": [
+    {
+      "Id": 1,
+      "name": "Landing Page Design",
+      "description": "Landing Page design for Womenure.",
+      "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215813/Header_1_oortgy.png"
+    },
+    {
+      "Id": 2,
+      "name": "Landing Page Design",
+      "description": "Landing Page design for Womenure.",
+      "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215813/Header_1_oortgy.png"
+    },
+    {
+      "Id": 3,
+      "name": "Mobile App",
+      "description": "Mobile App Splash Screen Design with AdobeXD",
+      "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590217587/Header_1_copy_srpsba.png"
+    },
+    {
+      "Id": 4,
+      "name": "Mobile App Design",
+      "description": "Mobile App Splash Screen Design with AdobeXD",
+      "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590217820/Header_1_copy_lv27hg.png"
+    }
+  ]
 }
