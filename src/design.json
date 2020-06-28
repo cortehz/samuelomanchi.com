@@ -1,0 +1,82 @@
+{
+    "logodesign": [{
+            "Id": 1,
+            "name": "Tranquility Hotels",
+            "description": "Logo Design for Tranquility Hotels.",
+            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215815/Tranquility_Logo3_whndmb.jpg"
+        },
+
+        {
+            "Id": 2,
+            "name": "Heritage Roofs",
+            "description": "Logo design for Heritage Roofs",
+            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215810/Essieno_Logo_New_yabe1m.jpg"
+        },
+
+        {
+            "Id": 3,
+            "name": "Forever Hotels",
+            "description": "Logo Design for Forever Hotels",
+            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215808/ForeverMockup_unih9j.jpg"
+        },
+
+        {
+            "Id": 4,
+            "name": "Procare Hotels",
+            "description": "Logo Design for Procare Hotels",
+            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215806/Procare_Hotels3_abq63j.jpg"
+        },
+
+        {
+            "Id": 5,
+            "name": "Aqua Resort",
+            "description": "Logo Design for Aqua Resort",
+            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215796/Aqua_Resort_Logo_l2lnwg.jpg"
+        },
+        {
+            "Id": 6,
+            "name": "Delish Restaurant",
+            "description": "Logo Design for Delish Restaurant",
+            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215797/delish_1_l1qoxk.jpg"
+        },
+        {
+            "Id": 7,
+            "name": "Ed Football Championship",
+            "description": "Logo Design for Ed Football Championship",
+            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215800/ed_logo_final_efmvgb.jpg"
+        }
+    ],
+
+    "icons": [{
+        "Id": 1,
+        "name": "Icons",
+        "description": "Science/Tech Icon Set",
+        "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215804/ScienITec_Icons_fmkvzy.jpg"
+    }],
+
+    "uidesigns": [{
+            "Id": 1,
+            "name": "Landing Page Design",
+            "description": "Landing Page design for Womenure.",
+            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215813/Header_1_oortgy.png"
+        },
+        {
+            "Id": 2,
+            "name": "Landing Page Design",
+            "description": "Landing Page design for Womenure.",
+            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590215813/Header_1_oortgy.png"
+        },
+        {
+            "Id": 3,
+            "name": "Mobile App",
+            "description": "Mobile App Splash Screen Design with AdobeXD",
+            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590217587/Header_1_copy_srpsba.png"
+        },
+        {
+            "Id": 4,
+            "name": "Mobile App Design",
+            "description": "Mobile App Splash Screen Design with AdobeXD",
+            "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1590217820/Header_1_copy_lv27hg.png"
+        }
+    ]
+}

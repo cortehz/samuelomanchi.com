@@ -3,6 +3,7 @@ import { Tab, TabList, Tabs, TabPanel, TabPanels } from '@chakra-ui/core';
 import Layout from '../components/Layout';
 import triangle from '../assets/images/triangle.svg';
 import portfolio from '../portfolio.json';
+import design from '../design.json';
 
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
@@ -237,7 +238,7 @@ const IndexPage = () => (
             </TabPanel>
             <TabPanel>
               <ul class="cards">
-                {portfolio.logodesign.map(port => {
+                {design.logodesign.map(port => {
                   const { Id, name, description, imageAddress } = port;
                   return (
                     <li key={Id} class="cards_item">
@@ -259,7 +260,7 @@ const IndexPage = () => (
 
             <TabPanel>
               <ul class="cards">
-                {portfolio.uidesigns.map(port => {
+                {design.uidesigns.map(port => {
                   const { Id, name, description, imageAddress } = port;
                   return (
                     <li key={Id} class="cards_item">
@@ -281,7 +282,7 @@ const IndexPage = () => (
 
             <TabPanel>
               <ul class="cards">
-                {portfolio.icons.map(port => {
+                {design.icons.map(port => {
                   const { Id, name, description, imageAddress } = port;
                   return (
                     <li key={Id} class="cards_item">
