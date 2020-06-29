@@ -8,7 +8,7 @@
         }, {
             "Id": 1,
             "name": "Shortly - URL Shortener",
-            "description": "URL Shortener build with ReactJs from the rel.ly API.",
+            "description": "URL Shortener built with ReactJs from the rel.ly API.",
             "imageAddress": "https://res.cloudinary.com/cortehz/image/upload/v1593382559/screencapture-short-me-netlify-app-2020-06-29-00_05_23_apy2u2.png",
             "webAddress": "https://short-me.netlify.app"
         },
