@@ -39,7 +39,7 @@ const IndexPage = () => (
             <i class="fas fa-map-pin"></i> {config.address} · {config.phone}
           </div>
           <p className="lead mb-5">
-            I am experienced an problem solver using Web and Mobile Technologies
+            I am an experienced problem solver using Web and Mobile Technologies
             to meet business and individuals at their point of need. The utmost
             professional that is well-versed in many of the latest web and
             mobile technologies. Currently available for hire.
